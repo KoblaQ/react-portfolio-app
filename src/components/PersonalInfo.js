@@ -3,13 +3,13 @@ import ProfilePic from "../assets/images/ProfilePic.png";
 
 const PersonalInfo = () => {
   return (
-    <div className='personal-info container mt-5'>
+    <div className='personal-info container-fluid mt-5'>
       <div className='card mb-3 shadow'>
         <div className='row no-gutters'>
           <div className='col-md-4'>
             <img
               src={ProfilePic}
-              alt='Pikku Panda'
+              alt='Profile'
               className='img-fluid rounded-start'
             />
           </div>

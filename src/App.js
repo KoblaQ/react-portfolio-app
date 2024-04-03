@@ -7,7 +7,7 @@ import WorkExperience from "./components/WorkExperience";
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App container-fluid bg-primary-subtle'>
       <PersonalInfo />
       <EducationalBackground />
       <WorkExperience />
