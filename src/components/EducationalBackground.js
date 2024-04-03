@@ -30,7 +30,7 @@ const EducationalBackground = () => {
   ];
 
   return (
-    <div className='educational-background container mt-5'>
+    <div className='educational-background container-fluid mt-5'>
       <h2 className='mb-4'>Educational Background</h2>
       <div className='row'>
         {educations.map((education) => (
